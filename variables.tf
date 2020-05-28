@@ -8,5 +8,5 @@ variable "resource_name" {
 variable "tags" {
   type = map
   description = "The tag of the resource group to create"
-  default = []
+  default = {}
 }
